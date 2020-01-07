@@ -1,13 +1,13 @@
 ;;; tidy.el --- Interface to the HTML Tidy program
 
-;; Copyright (C) 2001, 2002, 2003 by Free Software Foundation, Inc.
+;; Copyright (C) 2001, 2002, 2003, 2020 by Free Software Foundation, Inc.
 
 ;; Emacs Lisp Archive Entry
 ;; Filename: tidy.el
 ;; Author: Kahlil (Kal) HODGSON <dorge@tpg.com.au>
 ;; X-URL: http://www.emacswiki.org/elisp/tidy.el
-;; Time-stamp: <2002-09-30 13:16:23 kahlil>
-;; Version: 2.12
+;; Time-stamp: <2020-01-07 15:25:08 +0100>
+;; Version: 2.13
 ;; Keywords: languages
 
 ;; This file is NOT part of GNU Emacs.
@@ -33,7 +33,7 @@
 ;; utility that can fix common errors in your mark-up and clean up
 ;; sloppy editing automatically. See
 ;;
-;;       <http://tidy.sourceforge.net/>
+;;       <https://github.com/htacg/tidy-html5>
 ;;
 ;; for more details.  This package provides the following functions:
 ;;
